@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Cite the Zenodo DOI after the independent public release; before then cite the frozen GitHub tag."
+message: "Cite the official public Polybrutus 11D DOI 10.5281/zenodo.24408650."
 title: "Polybrutus 11D: Exact Conservative Metric Completion and a Fivefold Spectral Mode"
 authors:
   - family-names: "St-Pierre"
     given-names: "Gabriel"
     orcid: "https://orcid.org/0009-0009-9297-2336"
 version: "0.1.0"
+doi: 10.5281/zenodo.24408650
 date-released: "2026-11-20"
 url: "https://github.com/Topbrutus/polybrutus-d11"
 license: MIT
