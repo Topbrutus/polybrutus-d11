@@ -1,5 +1,14 @@
 # POLYBRUTUS 11D - Exact conservative metric and fivefold model spectral mode
 
+## Officially published and verified
+
+- **Official Zenodo DOI:** [10.5281/zenodo.24408650](https://doi.org/10.5281/zenodo.24408650); [public record 24408650](https://zenodo.org/records/24408650).
+- **Frozen source tag:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d11/tree/v0.1.0) at commit `b49252a03760ea55301b15a60df3c7317f8e3160`.
+- **GitHub CI:** [exact + independent D11 proof](https://github.com/Topbrutus/polybrutus-d11/actions/runs/44840058390) (`success` on frozen source commit).
+- **Zenodo source files:** frozen tag ZIP, four-page mathematics PDF and certificate of all 120 squared labelled distances; file integrity verified by public API.
+- **Scientific scope:** a reproducible model computation, not independently peer-reviewed and not a claim about 11 physical spacetime dimensions.
+
+
 **Research author and scientific responsibility:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Status:** Exact computational mathematics, preprint, not independently peer reviewed.  
 **AI disclosure:** OpenAI ChatGPT (Astra) assisted derivation, coding, verification, scientific note and publication operations. AI is not an author.
