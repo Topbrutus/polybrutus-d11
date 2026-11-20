@@ -3,7 +3,7 @@
   "dimension": 11,
   "repository": "Topbrutus/polybrutus-d11",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 16,
   "pairs": 120,
   "affine_rank": 11,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24408569",
   "parent_github_tag": "Topbrutus/polybrutus-d10@v0.1.0",
   "parent_tag_commit": "dc2a45522e5e6794742b8a43de6c105a475d1e89",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "b49252a03760ea55301b15a60df3c7317f8e3160",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24408650,
+  "zenodo_doi": "10.5281/zenodo.24408650",
   "scientific_delta": "Exact dimension-11 labelled metric and illustrative 16-vertex weighted-Laplacian fivefold eigenvalue at 8.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted symbolic mathematics, independent checks, source and writing; not an author",
-  "verification": "Main SymPy and independent rational-metric checkers PASS on authorized machine; GitHub CI not yet run",
-  "next_action": "Create private GitHub repository, verify CI, freeze tag, stage unique Zenodo record, publish only after integrity and scientific scope gates"
+  "verification": {
+    "coordinate_rank": "PASS",
+    "edm_gram_rank": "PASS",
+    "gram_psd_exact_factorization": "PASS",
+    "parent_distances": "105/105 PASS",
+    "new_distances": "15/15 PASS",
+    "independent_pairs": "120/120 PASS",
+    "negative_controls": "4/4 PASS",
+    "graph_spectrum": "8 x5; 15/2 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "On next go start Polybrutus 12D from immutable D11 v0.1.0; aim 17 vertices, 136 labelled pairs, preserve 120 previous distances and prove affine rank 12. Do not start D12 before the next go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44840058390,
+    "conclusion": "success",
+    "head_sha": "b49252a03760ea55301b15a60df3c7317f8e3160"
+  },
+  "github_main_note": "Postrelease bibliographic and SHA-index updates may advance main; v0.1.0 source tag remains fixed.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D11_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 148156,
+      "sha256": "51545844de580b9ac781eb01801b8b9a2bcfeb5f8929df7c6edaeefe26e73c92"
+    },
+    {
+      "name": "POLYBRUTUS_11D_NOTE.pdf",
+      "size": 160640,
+      "sha256": "caccfacab66c74e07de1daa96985d6157aa7ec760ec3982a69b74409f017da4e"
+    },
+    {
+      "name": "certificate_d11.json",
+      "size": 10663,
+      "sha256": "02569fd883ec8b9db8affe8290289da6476cfa04d1609198bb7a160950d9991a"
+    }
+  ],
+  "publication_approval": "Topbrutus defined go as authorized next-dimension GitHub+Zenodo publication and gave go for D11."
 }
